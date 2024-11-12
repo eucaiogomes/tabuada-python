@@ -1,0 +1,7 @@
+numero = int(input("Digite o numero para da Tabuada: "))
+tabuada =[]
+for i in range(10):
+    resultado = numero*i
+    tabuada.append(resultado)
+
+print(f"Tabuada do {numero}:{tabuada}")
